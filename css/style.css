@@ -546,3 +546,28 @@
 .footer .copyright a:hover {
     color: #FFFFFF;
 }
+
+@media (max-width: 768px) {
+
+    #foot {
+        flex-direction: column;   
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    #footlogo{
+            flex-direction: column;
+    justify-content: center;
+     align-items: center;
+     width: auto;
+    }
+
+    #addres p {
+        justify-content: center;  /* center address text */
+    }
+
+    .footer .btn.btn-link {
+        text-align: center;       /* center quick links */
+    }
+}
